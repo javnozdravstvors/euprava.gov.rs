@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<!-- saved from url=(0198)https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style>
+        #resetBtn {
+            background-color: white;
+            color: rgb(40, 60, 120);
+            height: 30px;
+            width: 300px;
+            margin: auto;
+            margin-bottom: 3px;
+        }
+
+        .container {
+            margin-top:6px
+        }
+
+        .container .ms-Icon {
+            display: flex;
+            margin-top: -63px
+        }
+
+        #welcomeMessage {
+            overflow-wrap: break-word;
+            width: 190px;
+            font-size: 15px;
+            margin-left: -200px;
+            margin-top: -12px;
+            color: black;
+            padding-right: 30px;
+        }
+        .ac-pushButton > div {
+            white-space: normal !important;
+            color: rgb(40, 60, 120);
+        }
+  </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1, user-scalable=no">
+    <title>eUprava</title>
+    <script async="" src="./sr1_files/gtm.js"></script><script>
+      var eupravaCookies=document.cookie.split("; ");
+      var eupravaTheme=0;
+      var eupravaTab=0;
+      for(var eupravaIndex in eupravaCookies) {
+        var eupravaCookie=eupravaCookies[eupravaIndex].split("=");
+        if (eupravaCookie[0]=="euprava-theme") {
+          eupravaTheme=eupravaCookie[1][2];
+          if (eupravaCookie[1][0]=="0")
+            document.getElementsByTagName("html")[0].className="small";
+          if (eupravaCookie[1][0]=="2")
+            document.getElementsByTagName("html")[0].className="large";
+        }
+        if (eupravaCookie[0]=="active-tab")
+          eupravaTab=(eupravaCookie[1][0]*1 || 0);
+      }
+      if (eupravaTab==0)
+        document.write('<link rel="stylesheet" type="text/css" '+(eupravaTheme==0?'':'data-')+'href="/TheEGovernmentTheme/css/app.css?v=1.2" data-theme="0">');
+      else if (eupravaTab==1)
+        document.write('<link rel="stylesheet" type="text/css" '+(eupravaTheme==0?'':'data-')+'href="/TheEGovernmentTheme/css/basic-privreda.css" data-theme="0">');
+      else if (eupravaTab==2)
+        document.write('<link rel="stylesheet" type="text/css" '+(eupravaTheme==0?'':'data-')+'href="/TheEGovernmentTheme/css/basic-uprava.css" data-theme="0">');
+      document.write('<link rel="stylesheet" type="text/css" '+(eupravaTheme==1?'':'data-')+'href="/TheEGovernmentTheme/css/bw.css" data-theme="1">');
+      document.write('<link rel="stylesheet" type="text/css" '+(eupravaTheme==2?'':'data-')+'href="/TheEGovernmentTheme/css/inverse.css" data-theme="2">');
+    </script><link rel="stylesheet" type="text/css" href="./sr1_files/app.css" data-theme="0" data-href="/TheEGovernmentTheme/css/app.css?v=1.2"><link rel="stylesheet" type="text/css" data-href="/TheEGovernmentTheme/css/bw.css" data-theme="1"><link rel="stylesheet" type="text/css" data-href="/TheEGovernmentTheme/css/inverse.css" data-theme="2">
+    <noscript>
+      <link rel="stylesheet" type="text/css" href="/TheEGovernmentTheme/css/app.css?v=1.2">
+      <link rel="stylesheet" type="text/css" href="/css/app.override.css">
+    </noscript>
+	<link rel="stylesheet" type="text/css" href="./sr1_files/toastr.css">
+    <link rel="stylesheet" type="text/css" href="./sr1_files/app.override.css">
+	<link rel="apple-touch-icon" sizes="57x57" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://euprava.gov.rs/TheEGovernmentTheme/favicon/manifest.json">	
+    <link rel="stylesheet" href="./sr1_files/MinimizableWebChat.css">
+    <script crossorigin="anonymous" src="./sr1_files/webchat.js"></script><script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script><style></style><meta name="react-film" content="version=3.0.1"><meta name="react-scroll-to-bottom:version" content="4.1.1"><meta name="web-speech-cognitive-services" content="version=undefined"><meta name="botframework-directlinespeech:version" content="4.14.0"><meta name="botframework-webchat:bundle:variant" content="full"><meta name="botframework-webchat:bundle:version" content="4.14.0"><meta name="botframework-webchat:core:version" content="4.14.0"><meta name="botframework-webchat:ui:version" content="4.14.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/TheEGovernmentTheme/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+	<!--[if lte IE 8 ]>
+    <script src="/TheEGovernmentTheme/ie8.js"></script>
+    <link rel="stylesheet" type="text/css" href="/TheEGovernmentTheme/css/ie8.css" />
+<![endif]-->
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ login: "Nije Ulogovan" });     
+</script>
+
+     <script>
+        function getCookie(cname) {
+            var i, x, y, cookies = document.cookie.split(";");
+            for (i = 0; i < cookies.length; i++) {
+                x = cookies[i].substr(0, cookies[i].indexOf("="));
+                y = cookies[i].substr(cookies[i].indexOf("=") + 1);
+                x = x.replace(/^\s+|\s+$/g, "");
+                if (x == cname) {
+                    return unescape(y);
+                }
+            }
+        }
+        if (getCookie('ga_consent_cookie') != 'false') {       
+            document.write('<' + 'script src="/js/google-tag.js"' +
+                ' type="text/javascript"><' + '/script>');
+        }
+    </script><script src="./sr1_files/google-tag.js" type="text/javascript"></script>
+  </head>
+  <body class="theme-default">
+   <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZG9ZK6"
+   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- End Google Tag Manager (noscript) -->
+
+
+	  <div class="minimizable-web-chat">
+       <button id="openchatboxbutton" class="maximize" onclick="OpenChat()">
+            <span class="ms-Icon ms-Icon--MessageFill">
+            </span>
+        </button>
+
+        <div id="chatbox" style="display:none" class="chat-box right">
+            <header class="">
+                 <img src="./sr1_files/logo.svg">
+                
+                <div class="filler"></div>
+                <p style="font-size:x-small;color:white;margin:auto">БЕТА ВЕРЗИЈА</p>
+                <button class="switch" onclick="HandleSwitchButtonClick()">
+                    <span class="ms-Icon ms-Icon--Switch">
+                </span></button>
+                <button class="minimize" onclick="HandleMinimizeButtonClick()">
+                    <span class="ms-Icon ms-Icon--ChromeMinimize">
+                </span></button>
+            </header>
+            <div id="webchat" class="react-web-chat" role="main"></div>
+            <button id="resetBtn" type="button" onclick="Reset()">Почетак</button>
+        </div>
+    </div>
+    <script>
+    var store = null;
+
+    async function Reset() {
+        store.dispatch({
+            type: 'WEB_CHAT/SEND_MESSAGE',
+            payload: {
+                text: `Почетак`
+            }
+        });
+    }
+
+    var IsOpened = false;
+
+    function OpenChat() {
+        document.getElementById("openchatboxbutton").style.display = "none";
+        document.getElementById("chatbox").style.display = "flex";
+
+        if (!IsOpened) {
+            IsOpened = true;
+            // Get welcome message
+            // We are using a customized store to add hooks to connect event
+            store = window.WebChat.createStore({}, ({ dispatch }) => next => action => {
+                console.log(action);
+                if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+                    dispatch({
+                        type: 'WEB_CHAT/SEND_EVENT',
+                        payload: {
+                            name: 'webchat/join',
+                            value: { language: window.navigator.language }
+                        }
+                    });
+                }
+                return next(action);
+            });
+
+            // Set the StyleOptions for avatar
+            const styleOptions = {
+                //botAvatarInitials: 'WC',
+                //userAvatarInitials: 'WW'
+                hideSendBox: true,
+                hideUploadButton: true
+                //messageActivityWordBreak: 'keep-all'
+            };
+
+            // Render the webchat control
+            window.WebChat.renderWebChat({
+                directLine: window.WebChat.createDirectLine({ token: `P-7Hhx81c98.T6hfrCFixVnu5ARgIsvt50u20TYQQyVgXEF2Z4Q2kJY` }),
+                store,
+                //userID: `user`,
+                //username: 'Web Chat User',
+                locale: 'sr-Cyrl-RS',
+                styleOptions
+            }, document.getElementById('webchat'));
+            document.querySelector('#webchat > *').focus();
+        }
+    }
+
+    function HandleMinimizeButtonClick() {
+        document.getElementById("chatbox").style.display = "none";
+        document.getElementById("openchatboxbutton").style.display = "block";
+    }
+    function HandleSwitchButtonClick() {
+        var element = document.getElementById("chatbox");
+        element.classList.toggle('right');
+        element.classList.toggle('left');
+    }
+</script>
+   
+    <header class="">
+      <div class="head-sections">
+        <div class="top-bar"></div>
+        <div class="mid-sep"></div>
+        <div class="bot-bar"></div>
+      </div>
+      <div class="container">
+	  
+        <div class="head-tabs">
+		    
+          <ul>
+            <li class="active"><a href="https://euprava.gov.rs/">Грађани</a></li>
+            <li><a href="https://euprava.gov.rs/">Привреда</a></li>
+            <li><a href="https://euprava.gov.rs/">Држава</a></li>
+          </ul>
+        </div>
+        <h1><a href="https://euprava.gov.rs/">euprava.gov.rs</a></h1>
+        <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" class="mobile-handle"></a>
+         <div class="my-egov">         
+		    
+
+
+
+
+
+
+    <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" class="">Моја еУправа</a>
+<ul>
+                <li><a href="https://euprava.gov.rs/ssologin" target="_self">Пријава</a></li>
+                <li><a href="https://euprava.gov.rs/ssologinpro" target="_self">Пријава Про</a></li>
+                <li><a href="https://eid.gov.rs/" target="_blank">Регистрација</a></li>
+</ul>
+
+   
+          
+        </div>
+        <div class="nav">
+          <nav><div class="active-line" style="display: none;"></div>
+            <ul>
+		      
+
+
+
+<li class="has-child">
+    <ul><li class="back"><a>Услуге</a></li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15">Лична документа</a>
+                    <ul><li class="back"><a>Лична документа</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15/%C5%BEivotna-situacija/46">
+                                    Лична карта/пасош
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15/%C5%BEivotna-situacija/99">
+                                    Возачка дозвола
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15/%C5%BEivotna-situacija/130">
+                                    Лична стања грађана
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15/%C5%BEivotna-situacija/170">
+                                    Матична књига рођених
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15/%C5%BEivotna-situacija/173">
+                                    Квалификовани електронски сертификат
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/15/%C5%BEivotna-situacija/180">
+                                    Исправе о оружју
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16">Деца; Образовање</a>
+                    <ul><li class="back"><a>Деца; Образовање</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/31">
+                                    Бебо, добро дошла на свет
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/32">
+                                    еВртић
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/55">
+                                    еВртић - родитељ странац
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/87">
+                                    Одбијеница
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/196">
+                                    Моја средња школа
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/16/%C5%BEivotna-situacija/198">
+                                    есДневник
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/17">Здравље</a>
+                    <ul><li class="back"><a>Здравље</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/17/%C5%BEivotna-situacija/33">
+                                    Здравствено осигурање
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/17/%C5%BEivotna-situacija/34">
+                                    Здравствена заштита
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/17/%C5%BEivotna-situacija/182">
+                                    COVID-19
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/20">Саобраћај; Туризам</a>
+                    <ul><li class="back"><a>Саобраћај; Туризам</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/20/%C5%BEivotna-situacija/44">
+                                    Регистрација возила
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/20/%C5%BEivotna-situacija/193">
+                                    Пријава боравишта странца
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/21">Уверења</a>
+                    <ul><li class="back"><a>Уверења</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/21/%C5%BEivotna-situacija/36">
+                                    Кривична уверења
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/22">Финансије</a>
+                    <ul><li class="back"><a>Финансије</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/22/%C5%BEivotna-situacija/42">
+                                    Локална пореска администрација
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/22/%C5%BEivotna-situacija/91">
+                                    Подстицаји
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/22/%C5%BEivotna-situacija/111">
+                                    Плати
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/22/%C5%BEivotna-situacija/114">
+                                    Моји подаци за банку
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/22/%C5%BEivotna-situacija/185">
+                                    Дигитална имовина
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/23">Посао</a>
+                    <ul><li class="back"><a>Посао</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/23/%C5%BEivotna-situacija/41">
+                                    Служба за управљање кадровима
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/23/%C5%BEivotna-situacija/153">
+                                    Национална служба за запошљавање
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/23/%C5%BEivotna-situacija/174">
+                                    Стручна усавршавања
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/23/%C5%BEivotna-situacija/175">
+                                    Конкурси за радна места
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/44">Пројекти</a>
+                    <ul><li class="back"><a>Пројекти</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/44/%C5%BEivotna-situacija/90">
+                                    Интелектуална својина
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/44/%C5%BEivotna-situacija/95">
+                                    Јавни позиви
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="has-child">
+                    <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/56">Foreigner</a>
+                    <ul><li class="back"><a>Foreigner</a></li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/56/%C5%BEivotna-situacija/79">
+                                    Application for a work visa
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://euprava.gov.rs/%C5%BEivotna-oblast/56/%C5%BEivotna-situacija/81">
+                                    Residence registration
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+        <li class="emph"><a href="https://euprava.gov.rs/sve-usluge">Све услуге</a></li>
+    </ul>
+    <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">Услуге</a>
+</li>
+        
+
+
+        <li class="has-child">
+      <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" class="nav-link dropdown-toggle" data-toggle="dropdown">Животни догађаји<b class="caret"></b></a>
+
+  <ul><li class="back"><a>Животни догађаји<b class="caret"></b></a></li>
+    <li class="">
+      <a href="https://euprava.gov.rs/porodicni-zivot">Породични живот</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/vrtic">Вртић</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/osnovno-obrazovanje">Основно образовање</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/srednje-obrazovanje">Средње образовање</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/studiranje">Студирање</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/prilike-mogucnosti-mladi">Прилике и могућности за младе</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/trazim-posao">Тражим посао</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/kupovina-nepokretnosti">Куповина непокретности</a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/pokretanje-biznisa">Покретање бизниса </a>
+
+</li>
+    <li class="">
+      <a href="https://euprava.gov.rs/%D0%BE%D0%B4%D0%BB%D0%B0%D0%B7%D0%B0%D0%BA-%D1%83-%D0%BF%D0%B5%D0%BD%D0%B7%D0%B8%D1%98%D1%83">Одлазак у пензију</a>
+
+</li>
+  </ul>
+</li>
+        <li class="">
+      <a href="https://euprava.gov.rs/sve-vesti">Вести</a>
+
+</li>
+        <li class="">
+      <a href="https://euprava.gov.rs/pomoc">Помоћ</a>
+
+</li>
+        <li class="">
+      <a href="https://euprava.gov.rs/kontakt">Контакт</a>
+
+</li>
+              <li class="mob-only has-child"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">Моја еУправа</a><ul><li class="back"><a>Моја еУправа</a></li>
+                <li><a href="https://euprava.gov.rs/ssologin" target="_self">Пријава</a></li>
+                <li><a href="https://euprava.gov.rs/ssologinpro" target="_self">Пријава Про</a></li>
+                <li><a href="https://eid.gov.rs/" target="_blank">Регистрација</a></li>
+</ul></li>
+            </ul>
+          </nav>
+          <div class="lang">
+
+<div class="ll-cont">
+  <div class="ll-active">
+    <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">
+      Ћирилица
+    </a>
+  </div>
+  <ul>
+    <li class="active">
+        <a href="https://euprava.gov.rs/RedirectToLocalizedContent?targetculture=sr-Cyrl&amp;contentItemUrl=%2FDigitalniZeleniSertifikat%2FvalidacijaDokumenta%2Fid%3Dam1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3D%3D">Ћирилица</a>
+    </li>
+
+    <li>
+      <a href="https://euprava.gov.rs/RedirectToLocalizedContent?targetculture=sr-Latn&amp;contentItemUrl=%2FDigitalniZeleniSertifikat%2FvalidacijaDokumenta%2Fid%3Dam1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3D%3D">Latinica</a>
+    </li>
+  </ul>
+</div>
+
+            <a class="set-handle" href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">Подешавaња</a>
+          </div>
+          <div class="settings">
+            <div class="settings-box">
+			 <a class="close">×</a>
+              <div class="zoom-note">
+                Употребите<br>CTRL+ за повећавање<br>CTRL- за смањивање
+              </div>
+              <div class="font">
+                <h2>Подешавaња</h2>
+                <div class="title">Изаберите стил приказа слова</div>
+                <ul>
+                  <li><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" role="button">Умањена слова</a></li>
+                  <li class="active" role="button"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">Нормална величина</a></li>
+                  <li><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" role="button">Велика слова</a></li>
+                </ul>
+              </div>
+              <div class="theme">
+                <div class="title">Изаберите тему</div>
+                <ul>
+                  <li class="default active"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" role="button">Основна тема</a></li>
+                  <li class="bw"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" role="button">Црно/бела тема</a></li>
+                  <li class="inv"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" role="button">Инверзна тема</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+		  <div class="muni">
+		      
+
+
+
+
+    <span class="current">Локација није одабрана</span>
+    <a>Промените</a>
+    <span class="help"></span>
+    <div class="muni-updater">
+        <input type="text" placeholder="Претрага">
+        <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" class="close"></a>
+        <ul>
+                    <li data-value="-1"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Локација није одабрана</a></li>
+                    <li data-value="80012"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ада</a></li>
+                    <li data-value="70017"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Александровац</a></li>
+                    <li data-value="70025"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Алексинац</a></li>
+                    <li data-value="80039"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Алибунар</a></li>
+                    <li data-value="80047"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Апатин</a></li>
+                    <li data-value="70033"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Аранђеловац</a></li>
+                    <li data-value="70041"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ариље</a></li>
+                    <li data-value="70050"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бабушница</a></li>
+                    <li data-value="70068"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бајина Башта</a></li>
+                    <li data-value="70092"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Барајево</a></li>
+                    <li data-value="70076"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Баточина</a></li>
+                    <li data-value="80055"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бач</a></li>
+                    <li data-value="80063"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бачка Паланка</a></li>
+                    <li data-value="80071"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бачка Топола</a></li>
+                    <li data-value="80080"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бачки Петровац</a></li>
+                    <li data-value="70084"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бела Паланка</a></li>
+                    <li data-value="80098"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бела Црква</a></li>
+                    <li data-value="80101"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Беочин</a></li>
+                    <li data-value="80110"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бечеј</a></li>
+                    <li data-value="70262"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Блаце</a></li>
+                    <li data-value="70289"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Богатић</a></li>
+                    <li data-value="70297"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бојник</a></li>
+                    <li data-value="70319"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бољевац</a></li>
+                    <li data-value="70327"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бор</a></li>
+                    <li data-value="70335"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Босилеград</a></li>
+                    <li data-value="70343"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Брус</a></li>
+                    <li data-value="70351"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Бујановац</a></li>
+                    <li data-value="70360"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ваљево</a></li>
+                    <li data-value="70378"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Варварин</a></li>
+                    <li data-value="70386"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Велика Плана</a></li>
+                    <li data-value="70394"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Велико Градиште</a></li>
+                    <li data-value="90018"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Витина</a></li>
+                    <li data-value="70408"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Владимирци</a></li>
+                    <li data-value="70416"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Владичин Хан</a></li>
+                    <li data-value="70424"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Власотинце</a></li>
+                    <li data-value="70106"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Вождовац</a></li>
+                    <li data-value="70432"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Врање</a></li>
+                    <li data-value="71358"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Врањска Бања</a></li>
+                    <li data-value="70114"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Врачар</a></li>
+                    <li data-value="80462"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Врбас</a></li>
+                    <li data-value="70459"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Врњачка Бања</a></li>
+                    <li data-value="80128"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Вршац</a></li>
+                    <li data-value="90026"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Вучитрн</a></li>
+                    <li data-value="70467"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Гаџин Хан</a></li>
+                    <li data-value="90034"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Глоговац</a></li>
+                    <li data-value="90042"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Гњилане</a></li>
+                    <li data-value="70475"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Голубац</a></li>
+                    <li data-value="90336"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Гора</a></li>
+                    <li data-value="70483"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Горњи Милановац</a></li>
+                    <li data-value="79014"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Град Београд</a></li>
+                    <li data-value="79057"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Град Врање</a></li>
+                    <li data-value="79022"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Град Ниш</a></li>
+                    <li data-value="89010"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Град Нови Сад</a></li>
+                    <li data-value="79049"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Град Пожаревац</a></li>
+                    <li data-value="79065"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Град Ужице</a></li>
+                    <li data-value="70122"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Гроцка</a></li>
+                    <li data-value="70491"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Деспотовац</a></li>
+                    <li data-value="90069"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Дечани</a></li>
+                    <li data-value="70505"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Димитровград</a></li>
+                    <li data-value="70513"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Дољевац</a></li>
+                    <li data-value="90085"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ђаковица</a></li>
+                    <li data-value="80136"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Жабаљ</a></li>
+                    <li data-value="70521"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Жабари</a></li>
+                    <li data-value="70530"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Жагубица</a></li>
+                    <li data-value="80144"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Житиште</a></li>
+                    <li data-value="70548"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Житорађа</a></li>
+                    <li data-value="70556"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Зајечар</a></li>
+                    <li data-value="70149"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Звездара</a></li>
+                    <li data-value="90352"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Звечан</a></li>
+                    <li data-value="70157"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Земун</a></li>
+                    <li data-value="80152"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Зрењанин</a></li>
+                    <li data-value="90093"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Зубин Поток</a></li>
+                    <li data-value="70564"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ивањица</a></li>
+                    <li data-value="80179"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Инђија</a></li>
+                    <li data-value="80187"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ириг</a></li>
+                    <li data-value="90107"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Исток</a></li>
+                    <li data-value="71048"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Јагодина</a></li>
+                    <li data-value="80195"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Кањижа</a></li>
+                    <li data-value="90115"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Качаник</a></li>
+                    <li data-value="80209"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Кикинда</a></li>
+                    <li data-value="70572"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Кладово</a></li>
+                    <li data-value="90123"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Клина</a></li>
+                    <li data-value="70599"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Кнић</a></li>
+                    <li data-value="70602"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Књажевац</a></li>
+                    <li data-value="80217"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ковачица</a></li>
+                    <li data-value="80225"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ковин</a></li>
+                    <li data-value="70629"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Косјерић</a></li>
+                    <li data-value="90131"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Косово Поље</a></li>
+                    <li data-value="90140"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Косовска Каменица</a></li>
+                    <li data-value="90298"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Косовска Митровица</a></li>
+                    <li data-value="71340"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Костолац</a></li>
+                    <li data-value="70637"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Коцељева</a></li>
+                    <li data-value="70645"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Крагујевац</a></li>
+                    <li data-value="70653"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Краљево</a></li>
+                    <li data-value="70661"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Крупањ</a></li>
+                    <li data-value="70670"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Крушевац</a></li>
+                    <li data-value="80233"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Кула</a></li>
+                    <li data-value="70688"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Куршумлија</a></li>
+                    <li data-value="70696"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Кучево</a></li>
+                    <li data-value="70165"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лазаревац</a></li>
+                    <li data-value="70700"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лајковац</a></li>
+                    <li data-value="71277"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лапово</a></li>
+                    <li data-value="70718"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лебане</a></li>
+                    <li data-value="90158"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лепосавић</a></li>
+                    <li data-value="70726"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лесковац </a></li>
+                    <li data-value="90166"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Липљан</a></li>
+                    <li data-value="70734"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лозница</a></li>
+                    <li data-value="70742"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Лучани</a></li>
+                    <li data-value="70769"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Љиг</a></li>
+                    <li data-value="70777"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Љубовија</a></li>
+                    <li data-value="70785"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Мајданпек</a></li>
+                    <li data-value="70793"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Мали Зворник</a></li>
+                    <li data-value="80241"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Мали Иђош</a></li>
+                    <li data-value="70807"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Мало Црниће</a></li>
+                    <li data-value="70815"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Медвеђа</a></li>
+                    <li data-value="71331"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Медијана</a></li>
+                    <li data-value="70823"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Мерошина</a></li>
+                    <li data-value="70831"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Мионица</a></li>
+                    <li data-value="70173"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Младеновац</a></li>
+                    <li data-value="70840"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Неготин</a></li>
+                    <li data-value="71285"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нишка Бања</a></li>
+                    <li data-value="70866"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нова Варош</a></li>
+                    <li data-value="80250"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нова Црња</a></li>
+                    <li data-value="70181"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нови Београд</a></li>
+                    <li data-value="80268"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нови Бечеј</a></li>
+                    <li data-value="80276"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нови Кнежевац</a></li>
+                    <li data-value="70874"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нови Пазар</a></li>
+                    <li data-value="80284"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Нови Сад </a></li>
+                    <li data-value="90182"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ново Брдо</a></li>
+                    <li data-value="90204"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Обилић</a></li>
+                    <li data-value="70190"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Обреновац</a></li>
+                    <li data-value="80292"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Опово</a></li>
+                    <li data-value="90212"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ораховац</a></li>
+                    <li data-value="70882"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Осечина</a></li>
+                    <li data-value="80306"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Оџаци</a></li>
+                    <li data-value="70203"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Палилула (Београд)</a></li>
+                    <li data-value="71323"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Палилула (Ниш)</a></li>
+                    <li data-value="71307"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пантелеј</a></li>
+                    <li data-value="80314"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Панчево</a></li>
+                    <li data-value="70904"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Параћин</a></li>
+                    <li data-value="80519"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Петроварадин</a></li>
+                    <li data-value="70912"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Петровац на Млави</a></li>
+                    <li data-value="90239"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пећ</a></li>
+                    <li data-value="80322"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пећинци</a></li>
+                    <li data-value="70939"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пирот</a></li>
+                    <li data-value="80349"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пландиште</a></li>
+                    <li data-value="90247"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Подујево</a></li>
+                    <li data-value="70947"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пожаревац</a></li>
+                    <li data-value="70955"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пожега</a></li>
+                    <li data-value="70963"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Прешево</a></li>
+                    <li data-value="70971"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Прибој</a></li>
+                    <li data-value="90255"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Призрен</a></li>
+                    <li data-value="70980"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Пријепоље</a></li>
+                    <li data-value="90263"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Приштина</a></li>
+                    <li data-value="70998"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Прокупље</a></li>
+                    <li data-value="71005"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ражањ</a></li>
+                    <li data-value="70211"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Раковица</a></li>
+                    <li data-value="71013"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Рача</a></li>
+                    <li data-value="71021"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Рашка</a></li>
+                    <li data-value="71030"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Рековац</a></li>
+                    <li data-value="80357"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Рума</a></li>
+                    <li data-value="70220"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Савски венац</a></li>
+                    <li data-value="71056"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Свилајнац</a></li>
+                    <li data-value="71064"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сврљиг</a></li>
+                    <li data-value="71366"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Севојно</a></li>
+                    <li data-value="80365"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сента</a></li>
+                    <li data-value="80373"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сечањ</a></li>
+                    <li data-value="71072"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сјеница</a></li>
+                    <li data-value="71099"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Смедерево</a></li>
+                    <li data-value="71102"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Смедеревска Паланка</a></li>
+                    <li data-value="71129"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сокобања</a></li>
+                    <li data-value="80381"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сомбор</a></li>
+                    <li data-value="70238"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сопот</a></li>
+                    <li data-value="90271"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Србица</a></li>
+                    <li data-value="80390"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Србобран</a></li>
+                    <li data-value="80403"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сремска Митровица</a></li>
+                    <li data-value="80411"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сремски Карловци</a></li>
+                    <li data-value="80420"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Стара Пазова</a></li>
+                    <li data-value="70246"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Стари град</a></li>
+                    <li data-value="80438"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Суботица</a></li>
+                    <li data-value="90280"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сува Река</a></li>
+                    <li data-value="71137"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сурдулица</a></li>
+                    <li data-value="71293"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Сурчин</a></li>
+                    <li data-value="80446"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Темерин</a></li>
+                    <li data-value="80454"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Тител</a></li>
+                    <li data-value="71153"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Топола</a></li>
+                    <li data-value="71161"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Трговиште</a></li>
+                    <li data-value="71170"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Трстеник</a></li>
+                    <li data-value="71188"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Тутин</a></li>
+                    <li data-value="71196"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ћићевац</a></li>
+                    <li data-value="71200"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ћуприја</a></li>
+                    <li data-value="71218"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Уб</a></li>
+                    <li data-value="71145"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Ужице</a></li>
+                    <li data-value="90301"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Урошевац</a></li>
+                    <li data-value="71315"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Црвени крст</a></li>
+                    <li data-value="71226"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Црна Трава</a></li>
+                    <li data-value="71234"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Чајетина</a></li>
+                    <li data-value="71242"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Чачак</a></li>
+                    <li data-value="80489"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Чока</a></li>
+                    <li data-value="70254"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Чукарица</a></li>
+                    <li data-value="71269"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Шабац</a></li>
+                    <li data-value="80497"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Шид</a></li>
+                    <li data-value="90310"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Штимље</a></li>
+                    <li data-value="90328"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ==">Штрпце</a></li>
+        </ul>
+    </div>
+
+<section class="form-popup">
+    <div class="pop-inner location-select">
+        <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?" class="close">Затвори</a>
+        <div class="pop-box">
+            <h2>Избор локације</h2>
+            <form class="gen-form" novalidate="" data-validate="">
+                <div>
+                    <div class="form-row">
+                        <label>Избором локације приказаће Вам се услуге за одабрану локацију.</label>
+                        <div class="select">
+                            <span>Локација није одабрана</span>
+                            <select data-req-required="Молимо изаберите локацију">
+                                        <option value="-1">Локација није одабрана</option>
+                                        <option value="80012">Ада</option>
+                                        <option value="70017">Александровац</option>
+                                        <option value="70025">Алексинац</option>
+                                        <option value="80039">Алибунар</option>
+                                        <option value="80047">Апатин</option>
+                                        <option value="70033">Аранђеловац</option>
+                                        <option value="70041">Ариље</option>
+                                        <option value="70050">Бабушница</option>
+                                        <option value="70068">Бајина Башта</option>
+                                        <option value="70092">Барајево</option>
+                                        <option value="70076">Баточина</option>
+                                        <option value="80055">Бач</option>
+                                        <option value="80063">Бачка Паланка</option>
+                                        <option value="80071">Бачка Топола</option>
+                                        <option value="80080">Бачки Петровац</option>
+                                        <option value="70084">Бела Паланка</option>
+                                        <option value="80098">Бела Црква</option>
+                                        <option value="80101">Беочин</option>
+                                        <option value="80110">Бечеј</option>
+                                        <option value="70262">Блаце</option>
+                                        <option value="70289">Богатић</option>
+                                        <option value="70297">Бојник</option>
+                                        <option value="70319">Бољевац</option>
+                                        <option value="70327">Бор</option>
+                                        <option value="70335">Босилеград</option>
+                                        <option value="70343">Брус</option>
+                                        <option value="70351">Бујановац</option>
+                                        <option value="70360">Ваљево</option>
+                                        <option value="70378">Варварин</option>
+                                        <option value="70386">Велика Плана</option>
+                                        <option value="70394">Велико Градиште</option>
+                                        <option value="90018">Витина</option>
+                                        <option value="70408">Владимирци</option>
+                                        <option value="70416">Владичин Хан</option>
+                                        <option value="70424">Власотинце</option>
+                                        <option value="70106">Вождовац</option>
+                                        <option value="70432">Врање</option>
+                                        <option value="71358">Врањска Бања</option>
+                                        <option value="70114">Врачар</option>
+                                        <option value="80462">Врбас</option>
+                                        <option value="70459">Врњачка Бања</option>
+                                        <option value="80128">Вршац</option>
+                                        <option value="90026">Вучитрн</option>
+                                        <option value="70467">Гаџин Хан</option>
+                                        <option value="90034">Глоговац</option>
+                                        <option value="90042">Гњилане</option>
+                                        <option value="70475">Голубац</option>
+                                        <option value="90336">Гора</option>
+                                        <option value="70483">Горњи Милановац</option>
+                                        <option value="79014">Град Београд</option>
+                                        <option value="79057">Град Врање</option>
+                                        <option value="79022">Град Ниш</option>
+                                        <option value="89010">Град Нови Сад</option>
+                                        <option value="79049">Град Пожаревац</option>
+                                        <option value="79065">Град Ужице</option>
+                                        <option value="70122">Гроцка</option>
+                                        <option value="70491">Деспотовац</option>
+                                        <option value="90069">Дечани</option>
+                                        <option value="70505">Димитровград</option>
+                                        <option value="70513">Дољевац</option>
+                                        <option value="90085">Ђаковица</option>
+                                        <option value="80136">Жабаљ</option>
+                                        <option value="70521">Жабари</option>
+                                        <option value="70530">Жагубица</option>
+                                        <option value="80144">Житиште</option>
+                                        <option value="70548">Житорађа</option>
+                                        <option value="70556">Зајечар</option>
+                                        <option value="70149">Звездара</option>
+                                        <option value="90352">Звечан</option>
+                                        <option value="70157">Земун</option>
+                                        <option value="80152">Зрењанин</option>
+                                        <option value="90093">Зубин Поток</option>
+                                        <option value="70564">Ивањица</option>
+                                        <option value="80179">Инђија</option>
+                                        <option value="80187">Ириг</option>
+                                        <option value="90107">Исток</option>
+                                        <option value="71048">Јагодина</option>
+                                        <option value="80195">Кањижа</option>
+                                        <option value="90115">Качаник</option>
+                                        <option value="80209">Кикинда</option>
+                                        <option value="70572">Кладово</option>
+                                        <option value="90123">Клина</option>
+                                        <option value="70599">Кнић</option>
+                                        <option value="70602">Књажевац</option>
+                                        <option value="80217">Ковачица</option>
+                                        <option value="80225">Ковин</option>
+                                        <option value="70629">Косјерић</option>
+                                        <option value="90131">Косово Поље</option>
+                                        <option value="90140">Косовска Каменица</option>
+                                        <option value="90298">Косовска Митровица</option>
+                                        <option value="71340">Костолац</option>
+                                        <option value="70637">Коцељева</option>
+                                        <option value="70645">Крагујевац</option>
+                                        <option value="70653">Краљево</option>
+                                        <option value="70661">Крупањ</option>
+                                        <option value="70670">Крушевац</option>
+                                        <option value="80233">Кула</option>
+                                        <option value="70688">Куршумлија</option>
+                                        <option value="70696">Кучево</option>
+                                        <option value="70165">Лазаревац</option>
+                                        <option value="70700">Лајковац</option>
+                                        <option value="71277">Лапово</option>
+                                        <option value="70718">Лебане</option>
+                                        <option value="90158">Лепосавић</option>
+                                        <option value="70726">Лесковац </option>
+                                        <option value="90166">Липљан</option>
+                                        <option value="70734">Лозница</option>
+                                        <option value="70742">Лучани</option>
+                                        <option value="70769">Љиг</option>
+                                        <option value="70777">Љубовија</option>
+                                        <option value="70785">Мајданпек</option>
+                                        <option value="70793">Мали Зворник</option>
+                                        <option value="80241">Мали Иђош</option>
+                                        <option value="70807">Мало Црниће</option>
+                                        <option value="70815">Медвеђа</option>
+                                        <option value="71331">Медијана</option>
+                                        <option value="70823">Мерошина</option>
+                                        <option value="70831">Мионица</option>
+                                        <option value="70173">Младеновац</option>
+                                        <option value="70840">Неготин</option>
+                                        <option value="71285">Нишка Бања</option>
+                                        <option value="70866">Нова Варош</option>
+                                        <option value="80250">Нова Црња</option>
+                                        <option value="70181">Нови Београд</option>
+                                        <option value="80268">Нови Бечеј</option>
+                                        <option value="80276">Нови Кнежевац</option>
+                                        <option value="70874">Нови Пазар</option>
+                                        <option value="80284">Нови Сад </option>
+                                        <option value="90182">Ново Брдо</option>
+                                        <option value="90204">Обилић</option>
+                                        <option value="70190">Обреновац</option>
+                                        <option value="80292">Опово</option>
+                                        <option value="90212">Ораховац</option>
+                                        <option value="70882">Осечина</option>
+                                        <option value="80306">Оџаци</option>
+                                        <option value="70203">Палилула (Београд)</option>
+                                        <option value="71323">Палилула (Ниш)</option>
+                                        <option value="71307">Пантелеј</option>
+                                        <option value="80314">Панчево</option>
+                                        <option value="70904">Параћин</option>
+                                        <option value="80519">Петроварадин</option>
+                                        <option value="70912">Петровац на Млави</option>
+                                        <option value="90239">Пећ</option>
+                                        <option value="80322">Пећинци</option>
+                                        <option value="70939">Пирот</option>
+                                        <option value="80349">Пландиште</option>
+                                        <option value="90247">Подујево</option>
+                                        <option value="70947">Пожаревац</option>
+                                        <option value="70955">Пожега</option>
+                                        <option value="70963">Прешево</option>
+                                        <option value="70971">Прибој</option>
+                                        <option value="90255">Призрен</option>
+                                        <option value="70980">Пријепоље</option>
+                                        <option value="90263">Приштина</option>
+                                        <option value="70998">Прокупље</option>
+                                        <option value="71005">Ражањ</option>
+                                        <option value="70211">Раковица</option>
+                                        <option value="71013">Рача</option>
+                                        <option value="71021">Рашка</option>
+                                        <option value="71030">Рековац</option>
+                                        <option value="80357">Рума</option>
+                                        <option value="70220">Савски венац</option>
+                                        <option value="71056">Свилајнац</option>
+                                        <option value="71064">Сврљиг</option>
+                                        <option value="71366">Севојно</option>
+                                        <option value="80365">Сента</option>
+                                        <option value="80373">Сечањ</option>
+                                        <option value="71072">Сјеница</option>
+                                        <option value="71099">Смедерево</option>
+                                        <option value="71102">Смедеревска Паланка</option>
+                                        <option value="71129">Сокобања</option>
+                                        <option value="80381">Сомбор</option>
+                                        <option value="70238">Сопот</option>
+                                        <option value="90271">Србица</option>
+                                        <option value="80390">Србобран</option>
+                                        <option value="80403">Сремска Митровица</option>
+                                        <option value="80411">Сремски Карловци</option>
+                                        <option value="80420">Стара Пазова</option>
+                                        <option value="70246">Стари град</option>
+                                        <option value="80438">Суботица</option>
+                                        <option value="90280">Сува Река</option>
+                                        <option value="71137">Сурдулица</option>
+                                        <option value="71293">Сурчин</option>
+                                        <option value="80446">Темерин</option>
+                                        <option value="80454">Тител</option>
+                                        <option value="71153">Топола</option>
+                                        <option value="71161">Трговиште</option>
+                                        <option value="71170">Трстеник</option>
+                                        <option value="71188">Тутин</option>
+                                        <option value="71196">Ћићевац</option>
+                                        <option value="71200">Ћуприја</option>
+                                        <option value="71218">Уб</option>
+                                        <option value="71145">Ужице</option>
+                                        <option value="90301">Урошевац</option>
+                                        <option value="71315">Црвени крст</option>
+                                        <option value="71226">Црна Трава</option>
+                                        <option value="71234">Чајетина</option>
+                                        <option value="71242">Чачак</option>
+                                        <option value="80489">Чока</option>
+                                        <option value="70254">Чукарица</option>
+                                        <option value="71269">Шабац</option>
+                                        <option value="80497">Шид</option>
+                                        <option value="90310">Штимље</option>
+                                        <option value="90328">Штрпце</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-row">
+                        <button><span>Потврдите локацију</span><span></span></button>
+                    </div>
+                    <div class="form-row">
+                        <div class="skip">
+                            <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">Не желим да поделим своју локацију</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+  
+			  <div class="muni-help">
+              <p>Одабиром локације приказаће Вам се услуге само које су доступне за ту локацију.</p>
+              </div>
+		  </div>
+        </div>
+      </div>
+    </header>
+	
+
+
+<style>
+    .gen-form .padding-zero {
+        padding: 0;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .display-flex {
+        display: flex;
+    }
+
+    .margin-left-1 {
+        margin-left: 1px;
+    }
+
+    .margin-right-1 {
+        margin-right: 1px;
+    }
+
+    .disclaimer .margin-none {
+        margin: 0;
+    }
+
+    #closeCovidPassportResponse {
+        width: 200px;
+    }
+
+    #documentValidityId::after {
+        content: "\2713";
+        padding-left: 6px;
+        vertical-align: middle;
+        width: 40px;
+        color: green;
+        font-weight: bold;
+    }
+
+    #documentValidityId {
+        color: green;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .lic-list {
+        margin: 0px !important;
+    }
+
+        .lic-list li {
+            flex-wrap: wrap;
+        }
+
+    .to-center h3 {
+        color: #253965 !important;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+    }
+</style>
+<section class="breadcrumbs">
+    <div class="container">
+        <ul>
+            <li><a href="https://euprava.gov.rs/">Насловна</a></li>
+        </ul>
+    </div>
+</section>
+<section class="page-content contact">
+    <div class="container">
+        <h2 class="to-center">Дигитални зелени сертификат / Digital green certificate</h2>
+        <br>
+        <p class="to-center h3">Потврда о извршеној вакцинацији против COVID-19 и резултатима тестирања на заразну болест SARS-CoV-2. / Confirmation of vaccination against <br>COVID-19 and test results for SARS-CoV-2 infectious disease. </p>
+        <br>
+        <br>
+                <form class="gen-form">
+                    <div class="pc">
+                        <div>
+                            <div class="form-row">
+                                <div>
+                                    <ul class="lic-list">
+                                        <li>
+                                            <ul class="accordion">
+                                                <li class="">
+                                                    <div class="head"><a name="personData">Подаци / Data</a><span></span></div>
+                                                    <div class="content" style="display: none;">
+                                                        <div class="pc-single">
+                                                            <div>
+                                                                <ul class="lic-list">
+                                                                    <li>
+                                                                        <label>Јединствени матични број грађана (ЈМБГ) / Unique master citizen number (UMCN)</label>
+                                                                        <span>0101967101495</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Име / Name</label>
+                                                                        <span>LJUBIŠA</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Име (ћирилицом) / Name (cirilic)</label>
+                                                                        <span>ЉУБИША</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Презиме / Surname</label>
+                                                                        <span>RADONIĆ</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Презиме (ћирилицом) / Surname (cirilic)</label>
+                                                                        <span>РАДОНИЋ</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Пол / Gender</label>
+                                                                        <span>Мушко</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Пол (латиница)/ Gender (latin)</label>
+                                                                        <span>Muško</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Пол (енг)/ Gender (english)</label>
+                                                                        <span>Male</span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Датум рођења / Date of birth</label>
+                                                                        <span>01-01-1967</span>
+                                                                    </li>
+                                                                        <li>
+                                                                            <ul class="accordion">
+                                                                                <li class="open">
+
+                                                                                        <div class="head" style="background-color: greenyellow"><a name="nepokretnost">Подаци о вакцинацији / Vaccination data </a><span></span></div>
+                                                                                            <div class="content" style="background-color: greenyellow; display: block;">
+                                                                                                <div class="pc-single">
+                                                                                                    <div>
+                                                                                                        <ul class="lic-list">
+
+                                                                                                            <li>
+                                                                                                                <label>Доза / Dose:</label>
+                                                                                                                <span>1</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Тип / Type:</label>
+                                                                                                                <span>Pfizer-BioNTech</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Серијски број / Serial number:</label>
+                                                                                                                <span>EN1195</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Датум вакцинаицје / Date of vaccination:</label>
+                                                                                                                <span>23-03-2021</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Произвођач / Manufacturer:</label>
+                                                                                                                <span>BIONTECH MANUFACTURING GMBH</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Место вакцинације / Vaccination site:</label>
+                                                                                                                <span>ДОМ ЗДРАВЉА ЗЕМУН</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Место вакцинације (латиница) / Vaccination site (latin):</label>
+                                                                                                                <span>DOM ZDRAVLJA ZEMUN</span>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="content" style="background-color: greenyellow; display: block;">
+                                                                                                <div class="pc-single">
+                                                                                                    <div>
+                                                                                                        <ul class="lic-list">
+
+                                                                                                            <li>
+                                                                                                                <label>Доза / Dose:</label>
+                                                                                                                <span>2</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Тип / Type:</label>
+                                                                                                                <span>Pfizer-BioNTech</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Серијски број / Serial number:</label>
+                                                                                                                <span>EN1195</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Датум вакцинаицје / Date of vaccination:</label>
+                                                                                                                <span>13-04-2021</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Произвођач / Manufacturer:</label>
+                                                                                                                <span>BIONTECH MANUFACTURING GMBH</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Место вакцинације / Vaccination site:</label>
+                                                                                                                <span>ДОМ ЗДРАВЉА ЗЕМУН</span>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <label>Место вакцинације (латиница) / Vaccination site (latin):</label>
+                                                                                                                <span>DOM ZDRAVLJA ZEMUN</span>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    <li>
+                                                                        <label id="documentValidityId"><b>Документ је валидан. / Document is valid.</b></label>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button id="closeCovidPassportResponse"><span>Заврши / Done</span><span></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+    </div>
+</section>
+
+    <div class="foot-top" style="bottom: -40px;">
+      <div class="container">
+        <a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?#">Врх стране</a>
+      </div>
+    </div>
+    <footer>
+      <div class="container">        
+	  <div class="foot-content">       
+	  <div class="site-title">         
+	  <h3>euprava.gov.rs</h3>          
+	  <p>Портал еУправа Републике Србије</p>  
+	  </div>          
+	  <div class="copy">Веб презентација је лиценцирана под условима лиценце 
+	  <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/rs/" target="_blank"> Creative Commons</a> Ауторство-Некомерцијално-Без прераде 3.0 Србија. Веб пројекат <a href="https://www.ite.gov.rs/" target="_blank">ite.gov.rs</a>           </div>          
+	  <ul class="nav">             
+	  <li><a href="https://euprava.gov.rs/uslovi_koriscenja" target="_blank">Услови коришћења</a></li>                 
+	  <li class="emph"><a href="https://euprava.gov.rs/DigitalniZeleniSertifikat/validacijaDokumenta/id=am1iZz0wMTAxOTY3MTAxNDk1JnJlcUlEPTcwOTI3OTU5LTQ5MzAtNGViYy1iNGMyLWQ3ZWRlYzUzYTBjZSZsYW5nPWVuLWdi-D4CCMzeCe2TI32UpSLoTNQ%3d%3d?">Подешавања</a></li>      
+	  </ul>       
+	  </div>       
+	  <ul class="foot-social">
+      <li class="in"><a href="https://www.linkedin.com/company/kancelarija-ite/" target="_blank">Linkedin</a></li>
+	  <li class="ig"><a href="https://www.instagram.com/kancelarijaite/" target="_blank">Instagram</a></li>
+	  <li class="fb"><a href="https://www.facebook.com/KancelarijaITE/" target="_blank">Facebook</a></li> 
+	  <li class="tw"><a href="https://twitter.com/kancelarijaITE" target="_blank">Twitter</a></li>   
+	  <li class="py"><a href="https://www.youtube.com/user/euprava" target="_blank">Play</a></li>   
+	  </ul>    
+	  </div>
+    </footer>
+     <div class="bottom-popup" id="bottom-popup">
+        <div class="bottom-popup-content">
+            <h2>Обавештење о колачићима</h2>
+            <p>Портал еУправа користи "колачиће" (енг. "cookies"). Неопходни колачићи омогућавају да се садржај страница прилагоди потребама корисника. Аналитички колачићи се користе за анализу коришћења услуга у циљу унапређења корисничког искуства. 
+            </p>
+            <p>Kликом на "Прихватам" дајете сагласност за коришћење колачића у сврхе наведене испод. Подешавања колачића можете променити у било ком тренутку.</p>
+            <div class="cookie-settings">
+                <form class="gen-form">
+                    <div class="form-row">
+                        <div class="col-4">
+                            <label class="checkbox disabled"><input type="checkbox" name="chk1" checked="true" disabled="" data-req-required="Морате обележити ово поље"><span></span>Неопходни</label>
+                        </div>
+                       <div class="col-4">
+                            <label class="checkbox"><input type="checkbox" checked="true" id="analytic-cookies-checkbox"><span></span>Аналитички</label>
+                        </div>
+                    </div>
+                    <div class="form-row action"><button class="btn primary" id="accept"><span>Прихватам</span><span></span></button>
+
+                    </div>
+                    <div class="form-row">
+                        <a class="btn default" target="_blank" href="https://euprava.gov.rs/uslovi_koriscenja">Више информација</a>
+                    </div>
+                </form>
+
+            </div>
+    
+
+    
+
+	<!--[if gt IE 8 ]>
+    <script src="/TheEGovernmentTheme/js/app.js"></script>
+    <![endif]-->
+    <!--[if !IE]><!-->
+    <script src="./sr1_files/app.js"></script>
+    <!--<![endif]-->
+    <script src="./sr1_files/cookies-consent.js"></script>
+    <script src="./sr1_files/toastr.js"></script>
+    <script src="./sr1_files/my-activity-details.js"></script>
+    <script src="./sr1_files/choose-bank.js"></script>   
+    <script src="./sr1_files/bank-link-index.js"></script>
+    <script src="./sr1_files/request-for-loan.js"></script>
+    <script src="./sr1_files/notification-module.js"></script>
+	<script src="./sr1_files/search-module.js"></script>
+    <script src="./sr1_files/my-documents.js"></script>
+    <script src="./sr1_files/contact.js"></script>
+    <script src="./sr1_files/central-register.js"></script>
+    <script src="./sr1_files/profile-module.js"></script>
+    <script src="./sr1_files/Tax.js"></script>
+    <script src="./sr1_files/jquery.mask.js"></script>
+    <script src="./sr1_files/high-school-request.js"></script>
+    <script src="./sr1_files/pcr-test-check.js"></script>
+    <script src="./sr1_files/bank-popup.js"></script>
+
+    <script src="./sr1_files/tts.js"></script>    	
+
+
+
+<div class="widget-container">
+
+    <div class="widget widget-raw-html">
+    <div class="widget-body">
+    
+
+
+<div class="field field-type-htmlfield field-name-raw-html-content">
+    <script src="./sr1_files/search-module.js"></script>
+</div>
+    </div>
+</div>
+
+</div>
+
+  
+
+</div></div></body></html>
